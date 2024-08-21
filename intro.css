@@ -1,0 +1,60 @@
+body {
+    background-image: url('Assets/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 90px; 
+}
+
+button {
+    border-radius: 5%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+video {
+    margin: 0 10px; 
+}
+
+nav a {
+    margin-right: 20px;
+    color: white;
+}
+
+nav{
+    text-align: left;
+    padding-right: 1200px;
+    margin-top: 90px;
+    /* position: fixed;  */
+}
+
+footer{
+    color: white;
+    padding-top: 20px;
+}
